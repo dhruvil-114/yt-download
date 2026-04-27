@@ -5,7 +5,6 @@ A high-performance, professional-grade video downloader built using **Python 3.1
 ---
 
 ## ✨ Key Features
-
 * **Ultra HD Support:** Deep-scans and extracts high-resolution streams (4K/8K).
 * **Native MP4 Merging:** Uses FFmpeg to merge video and audio into a single MP4 file automatically.
 * **Dynamic Resolution Scraper:** Fetches all available qualities for any specific video on the fly.
@@ -15,7 +14,6 @@ A high-performance, professional-grade video downloader built using **Python 3.1
 ---
 
 ## 🛠️ Tech Stack
-
 * **Language:** Python 3.14
 * **Backend:** `yt-dlp` (Industry standard for high-speed extraction)
 * **Frontend:** `customtkinter` (For the modern aesthetic)
@@ -24,8 +22,35 @@ A high-performance, professional-grade video downloader built using **Python 3.1
 ---
 
 ## ⚙️ Installation & Setup
-
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-   cd YOUR_REPO_NAME
+   `git clone https://github.com/dhruvil-114/yt-download.git`
+   `cd yt-download`
+
+2. **Install dependencies:**
+   `pip install customtkinter yt-dlp`
+
+3. **Install FFmpeg:**
+   Ensure **FFmpeg** is installed and added to your system's PATH. This is required for merging high-quality video and audio streams.
+
+---
+
+## 🚀 How to Use
+1. Run the script: `python main.py`
+2. Paste any YouTube link.
+3. Click **"FETCH ALL QUALITIES"**.
+4. Select your desired resolution from the dropdown.
+5. Choose your download location and hit **"DOWNLOAD"**.
+
+---
+
+## 🎬 Part of a Series
+This project is the first episode of my **Python Automation Series**. 
+* **Instagram:** [Follow for more episodes](https://www.instagram.com/)
+* **YouTube:** [Full tutorials here](https://www.youtube.com/)
+
+---
+
+### ⭐ Show Some Love
+If you find this tool useful, feel free to **Star** this repository and share it with other developers!
+
+**License:** MIT
